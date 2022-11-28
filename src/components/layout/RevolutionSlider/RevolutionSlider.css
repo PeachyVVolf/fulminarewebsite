@@ -1,0 +1,448 @@
+img {
+    width: 100%;
+}
+@keyframes animateCaptionP {
+    0% {
+        display: block;
+        margin-top: -10%;
+        opacity: 0;
+    }
+    100% {
+        margin-top: 0%;
+        opacity: 1;
+    }
+
+}
+@keyframes animateCaptionH {
+    0% {
+        display: none;
+        margin-top: 20%;
+        opacity: 0;
+    }
+    100% {
+        margin-bottom: 0%;
+        opacity: 1;
+    }
+
+}
+.carouselCaption {
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    left: 27%;
+    color: white;
+    text-align: center;
+}
+.carouselCaptionB {
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    left: 25%;
+    color: white;
+    text-align: center;
+}
+.carouselCaptionC {
+    position: absolute;
+    justify-content: center;
+    top: 30%;
+    left: 23%;
+    color: white;
+    text-align: center;
+}
+.carouselCaption p,
+.carouselCaptionB p,
+.carouselCaptionC p {
+    font-size: 17px;
+    padding-bottom: 5%;
+    letter-spacing: 0.5rem;
+}
+.captionP {
+    animation: 0.7s ease-in-out 0.25s 1 animateCaptionP;
+}
+.captionH {
+    animation: 0.7s ease-in-out 0.25s 1 animateCaptionH;
+}
+.carouselCaption h1,
+.carouselCaptionB h1,
+.carouselCaptionC h1 {
+    font-size: 60px;
+    letter-spacing: 0.5rem;
+}
+.carouselCaption a,
+.carouselCaptionB a,
+.carouselCaptionC a {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 1.5% 4%;
+    color: white;
+    font-size: 20px;
+    margin-top: 4%;
+    font-weight: 700;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+.carouselCaption a:hover,
+.carouselCaptionB a:hover,
+.carouselCaptionC a:hover {
+    background-color: white;
+    color: black;
+}
+@media screen and (max-width: 2050px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .captionH > h1 {
+        margin-bottom: 6%;
+    }
+    .carouselCaption {
+        left: 36%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 30%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 33%;
+    }
+}
+@media screen and (max-width: 1900px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 36%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 32%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 1700px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 35%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 30%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 1600px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 34%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 30%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 30%;
+    }
+}
+@media screen and (max-width: 1500px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 32%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 27%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 27%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 30%;
+    }
+    .carouselCaptionC {
+        top: 30%;
+        left: 25%;
+    }
+    .carouselCaptionB {
+        top: 30%;
+        left: 25%;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 25%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 18%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 21%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 22%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 15%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 18%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 20%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 13%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 16%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 17%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 10%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 14%;
+    }
+}
+@media screen and (max-width: 950px) {
+    .carouselImg {
+        height: 60vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 17%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 8%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 12%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .carouselImg {
+        height: 70vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 14%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 7%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 10%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 12%;
+    }
+    .carouselCaptionC {
+        top: 25%;
+        left: 0%;
+    }
+    .carouselCaptionB {
+        top: 25%;
+        left: 5%;
+    }
+}
+@media screen and (max-width: 700px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 7%;
+    }
+    .carouselCaptionC,
+    .carouselCaptionB {
+        top: 25%;
+        left: 0%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 2%;
+    }
+    .carouselCaptionC,
+    .carouselCaptionB {
+        top: 25%;
+        left: 0%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 0%;
+    }
+    .carouselCaptionC,
+    .carouselCaptionB {
+        top: 25%;
+        left: 0%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 0%;
+    }
+    .carouselCaptionC,
+    .carouselCaptionB {
+        top: 25%;
+        left: 0%;
+    }
+    .carouselCaptionC p {
+        padding-bottom: 3%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .carouselImg {
+        height: 100vmax;
+        object-fit: cover;
+    }
+    img {
+        height: 100%;
+    }
+    .carouselCaption {
+        left: 0%;
+    }
+    .carouselCaption h1,
+    .carouselCaptionB h1,
+    .carouselCaptionC h1 {
+        font-size: 40px;
+    }
+    .carouselCaptionC,
+    .carouselCaptionB {
+        top: 25%;
+        left: 0%;
+    }
+    .carouselCaptionC p {
+        padding-bottom: 3%;
+    }
+}

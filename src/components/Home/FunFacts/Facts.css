@@ -1,0 +1,55 @@
+.parallax {
+    /* The image used */
+    background-image: url("../../../images/bg-3.jpg");
+  
+    /* Set a specific height */
+    min-height: 400px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.FactsHeading {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 0% !important;
+}
+.FactsHeading .smallBorder {
+    border-bottom: 1px solid white;
+    padding-top: 2%;
+    width: 120px;
+}
+.FactsHeading span {
+    color: #005453;
+}
+/* Facts Items */
+.FactsItems {
+    text-align: center;
+    align-items: center;
+    min-height: 400px;
+}
+.FactsItems svg {
+    color: #005453;
+    font-size: 70px;
+    transition: all 0.3s;
+}
+.FactsItems p {
+    color: #005453;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0%;
+    transition: all 0.3s;
+}
+.FactsItems > div:hover p,
+.FactsItems > div:hover svg{
+    color: white;
+}
+.counter {
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    padding: 9% 0%;
+}

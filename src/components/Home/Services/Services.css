@@ -1,0 +1,66 @@
+@keyframes fadeIntoPage1 {
+    0% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.fadeIn1 {
+    animation: 0.7s ease-in 0s 1 fadeIntoPage1;
+}
+@keyframes fadeIntoPage2 {
+    0% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    30% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    60% {
+        opacity: 0;
+        transform: translateY(20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+.fadeIn2 {
+    animation: 1s ease-in 0s 1 fadeIntoPage2;
+}
+
+.servicesHeading {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin: 0% !important;
+}
+.servicesHeading .smallBorder {
+    border-bottom: 1px solid #005453;
+    padding-top: 2%;
+    width: 120px;
+}
+.servicesHeading span {
+    color: #005453;
+}
+/* serviceItem */
+.serviceItem {
+    display: flex;
+    text-align: center;
+}
+.serviceItem svg {
+    color: #005453;
+    font-size: 50px;
+}
+.serviceItem > div {
+    padding-left: 3%;
+    text-align: left;
+}

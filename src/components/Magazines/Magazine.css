@@ -1,0 +1,25 @@
+.bookHead {
+    text-align: center !important;
+    justify-content: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+.bookHead h3 {
+    padding-top: 3%;
+    font-style: italic;
+}
+.book {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 300px) {
+    .stf__parent {
+        max-width: 100px !important;
+        min-width: 100px !important;
+        max-height: 650px !important;
+        min-height: 650px !important;
+        margin: 0;
+        padding-left: 20%;
+    }
+}

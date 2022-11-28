@@ -1,0 +1,28 @@
+.footer {
+    background-color: rgb(19, 18, 18);
+}
+.footerSocials {
+    text-align: center;
+    justify-content: center;
+    padding: 5% 0%;
+}
+.footerSocials svg {
+    color: white;
+}
+.footerSocials ul {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    padding: 0%;
+}
+.footerSocials li {
+    list-style: none;
+    background-color: #005453;
+    padding: 1%;
+    margin: 0.6%;
+}
+.footerSocials p {
+    padding-top: 3%;
+}

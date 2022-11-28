@@ -1,0 +1,216 @@
+.TeamHeading {
+    text-align: center;
+    justify-content: center;
+    color: black;
+    margin: 0% !important;
+}
+.TeamHeading .smallBorder {
+    border-bottom: 1px solid #005453;
+    padding-top: 2%;
+    width: 120px;
+}
+.TeamHeading span {
+    color: #005453;
+}
+/* Team Items */
+.TeamItem {
+    padding: 0% 1%;
+    position: relative;
+}
+.insideTeamItem {
+    text-align: center;
+    transition: all 0.5s;
+    height: 70%;
+}
+.insideTeamItem img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.Teamoverlay {
+    position: absolute;
+    object-fit: cover;
+    bottom: 30%;
+    left: 3%;
+    right: 0;
+    background-color: #005453;
+    overflow: hidden;
+    width: 94%;
+    height: 0;
+    transition: .5s ease;
+    text-align: center;
+}
+.TeamItem:hover .Teamoverlay {
+    height: 70%;
+}
+.TeamItem:hover .insideTeamItem {
+    height: 0%;
+}
+.Teamtext {
+    color: white;
+    position: absolute;
+    top: 39%;
+    width: 80%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.teamItemName {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+.teamItemTitle {
+    font-size: 13px;
+    margin-bottom: 5%;
+}
+.Teamtext .smallBorderWhite {
+    border-bottom: 1px solid white;
+    padding-top: 2%;
+    width: 60px;
+}
+.Teamtext span {
+    color: white;
+}
+.teamItemSocials svg {
+    margin-right: 10%;
+    color: white;
+}
+.row {
+    margin: 0% !important;
+}
+@media screen and (max-width: 1100px) {
+    .Teamtext {
+        left: 35%;
+        top: 30%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .Teamtext {
+        left: 45%;
+        top: 39%;
+    }
+    .teamItemName {
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    .teamItemTitle {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+    .teamItemDesc {
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+    .teamItemSocials svg {
+        width: 35px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .Teamtext {
+        left: 45%;
+        top: 39%;
+    }
+    .teamItemName {
+        font-size: 25px;
+        margin-bottom: 3%;
+    }
+    .teamItemTitle {
+        font-size: 20px;
+        margin-bottom: 3%;
+    }
+    .teamItemDesc {
+        font-size: 20px;
+        margin-bottom: 2%;
+    }
+    .teamItemSocials svg {
+        width: 35px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .Teamtext {
+        left: 47%;
+        top: 41%;
+    }
+    .teamItemName {
+        font-size: 25px;
+        margin-bottom: 8%;
+    }
+    .teamItemTitle {
+        font-size: 22px;
+        margin-bottom: 8%;
+    }
+    .teamItemDesc {
+        font-size: 19px;
+        margin-bottom: 2%;
+    }
+    .teamItemSocials svg {
+        width: 30px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .Teamtext {
+        left: 45%;
+        top: 39%;
+    }
+    .teamItemName {
+        font-size: 18px;
+        margin-bottom: 3%;
+    }
+    .teamItemTitle {
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    .teamItemDesc {
+        font-size: 10px;
+        margin-bottom: -2%;
+    }
+    .teamItemSocials svg {
+        width: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Teamtext {
+        left: 45%;
+        top: 39%;
+    }
+    .teamItemName {
+        font-size: 18px;
+        margin-bottom: 3%;
+    }
+    .teamItemTitle {
+        font-size: 15px;
+        margin-bottom: 3%;
+    }
+    .teamItemDesc {
+        font-size: 10px;
+        margin-bottom: -2%;
+    }
+    .teamItemSocials svg {
+        width: 20px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .Teamtext {
+        left: 45%;
+        top: 32%;
+    }
+    .teamItemName {
+        font-size: 12px;
+        margin-bottom: -2%;
+    }
+    .teamItemTitle {
+        font-size: 12px;
+        margin-bottom: -2%;
+    }
+    .teamItemDesc {
+        font-size: 8px;
+        margin-bottom: -2%;
+        line-height: 150%;
+    }
+    .teamItemSocials svg {
+        width: 20px;
+    }
+}

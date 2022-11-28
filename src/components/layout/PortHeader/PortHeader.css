@@ -1,0 +1,38 @@
+.header {
+    background-image: url('../../../images/bg-3.jpg');
+    background-size: cover;
+    background-position: -5%;
+    min-height: 500px;
+    text-align: center;
+    padding-top: 10%;
+}
+.header h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+}
+@media screen and (max-width: 1000px) {
+    .header h1 {
+        padding-top: 10%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header h1 {
+        padding-top: 20%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .header h1 {
+        padding-top: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header h1 {
+        padding-top: 60%;
+    }
+}
+@media screen and (max-width: 300px) {
+    .header h1 {
+        padding-top: 60%;
+    }
+}

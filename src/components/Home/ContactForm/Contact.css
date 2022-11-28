@@ -1,0 +1,61 @@
+.success {
+    color: #0ff40f;
+}
+
+.error {
+    color: #960303;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../../../images/bg-4.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: fill;
+    color: white !important;
+    overflow: hidden;
+}
+.contactHeadingP {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 2%;
+}
+.form-control {
+    background-color: rgba(0, 0, 0, 0.411) !important;
+    border: none !important;
+    border-radius: 0% !important;
+}
+
+Button {
+    margin-top: 2% !important;
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    border-radius: 0% !important;
+    padding: 1% 7% !important;
+    font-size: 18px !important;
+}
+.contactInfo svg {
+    color: #005453;
+    font-size: 25px !important;
+    margin-right: 4%;
+}
+.contactInfo {
+    font-size: 16px;
+}
+.contactInfo div{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.222);
+    padding: 3% 0%;
+}
+.phoneRow {
+    border-bottom: 0 !important;
+}
+.phoneIcon {
+    /* margin-top: 2% !important; */
+}

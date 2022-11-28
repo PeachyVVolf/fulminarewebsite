@@ -1,0 +1,42 @@
+.parallax1 {
+    /* The image used */
+    background-image: url("../../../images/bg-8.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.skillsHeading {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin: 0% !important;
+}
+.skillsHeading .smallBorder {
+    border-bottom: 1px solid #005453;
+    padding-top: 2%;
+    width: 120px;
+}
+.skillsHeading span {
+    color: #005453;
+}
+/* progress bar */
+.progress {
+    background-color: black !important;
+    border-radius: 12px !important;
+    height: 0.3rem !important;
+}
+.progress-bar {
+    background-color: #005453 !important;
+    border-radius: 7px;
+    height: 100%;
+}
+.parallax1 h5 {
+    color: white;
+    font-weight: 600;
+}
