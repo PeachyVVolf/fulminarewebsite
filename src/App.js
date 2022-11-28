@@ -15,7 +15,7 @@ import PhotoManip from './components/PhotoManip/PhotoManip';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={"https://PeachyVVolf.github.io/"}>
+      <BrowserRouter basename={"https://PeachyVVolf.github.io/fulminarewebsite/"}>
         <NavbarElem />
         <Routes>
           <Route exact path="/" element={<Home/>} />
